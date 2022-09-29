@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="userCell" id="gTV-IL-0wX" customClass="UserCollectionViewCell" customModule="testBabySittorRS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="190" height="289"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="190" height="289"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cHT-o2-ycn">
+                        <rect key="frame" x="10" y="10" width="170" height="269"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="253" verticalHuggingPriority="251" fixedFrame="YES" text="flag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcB-Hp-k1N">
+                                <rect key="frame" x="54" y="236" width="26" height="20.333333333333332"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="252" verticalHuggingPriority="251" fixedFrame="YES" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="GD0-sy-MrY">
+                                <rect key="frame" x="8" y="235.66666666666663" width="24" height="19.666666666666668"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.31073241800000001" blue="0.39877263410000002" alpha="0.777110927152318" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Review" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGl-kN-xbE">
+                                <rect key="frame" x="54" y="206" width="80" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="252" verticalHuggingPriority="251" fixedFrame="YES" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="dSs-l2-z0Y">
+                                <rect key="frame" x="8" y="206.66666666666669" width="22" height="19.999999999999996"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="1" green="0.31073241800000001" blue="0.39877263410000002" alpha="0.77711092719999997" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hr1-py-kfv">
+                                <rect key="frame" x="8" y="181" width="154" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yj5-sM-vGj">
+                                <rect key="frame" x="8" y="122" width="154" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1n8-w8-SdN">
+                                <rect key="frame" x="8" y="152" width="158" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.38431372549999998" green="0.67450980390000004" blue="0.78823529410000004" alpha="0.83611858439999998" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xHF-aE-N9Q">
+                        <rect key="frame" x="10" y="10" width="170" height="116"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="116" id="wWf-Q6-aNM"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="cHT-o2-ycn" secondAttribute="bottom" constant="10" id="Psp-ye-ofa"/>
+                <constraint firstItem="cHT-o2-ycn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="dNj-ki-ooi"/>
+                <constraint firstItem="xHF-aE-N9Q" firstAttribute="trailing" secondItem="cHT-o2-ycn" secondAttribute="trailing" id="gKV-xp-88M"/>
+                <constraint firstItem="xHF-aE-N9Q" firstAttribute="top" secondItem="cHT-o2-ycn" secondAttribute="top" id="sge-9h-jDD"/>
+                <constraint firstItem="xHF-aE-N9Q" firstAttribute="leading" secondItem="cHT-o2-ycn" secondAttribute="leading" id="x8E-0J-sPv"/>
+                <constraint firstItem="cHT-o2-ycn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="ycz-7k-oeM"/>
+                <constraint firstAttribute="trailing" secondItem="cHT-o2-ycn" secondAttribute="trailing" constant="10" id="z29-HM-7fo"/>
+            </constraints>
+            <size key="customSize" width="190" height="294"/>
+            <connections>
+                <outlet property="avatarUser" destination="xHF-aE-N9Q" id="BJ7-Wa-I46"/>
+                <outlet property="countryUser" destination="KcB-Hp-k1N" id="vTo-sB-Q5Y"/>
+                <outlet property="emailUser" destination="1n8-w8-SdN" id="6Us-u7-gbm"/>
+                <outlet property="nameUser" destination="yj5-sM-vGj" id="FTz-Yk-HjX"/>
+                <outlet property="phoneUser" destination="hr1-py-kfv" id="6Jb-bJ-ysF"/>
+                <outlet property="reviewUser" destination="oGl-kN-xbE" id="YD7-ZN-div"/>
+                <outlet property="view" destination="cHT-o2-ycn" id="qPS-BX-5Od"/>
+            </connections>
+            <point key="canvasLocation" x="220" y="106.99052132701421"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+    </resources>
+</document>

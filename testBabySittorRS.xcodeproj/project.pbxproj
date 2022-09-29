@@ -9,23 +9,34 @@
 /* Begin PBXBuildFile section */
 		4DCB7B3F28E5F28C0026F2EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB7B3E28E5F28C0026F2EB /* AppDelegate.swift */; };
 		4DCB7B4128E5F28C0026F2EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB7B4028E5F28C0026F2EB /* SceneDelegate.swift */; };
-		4DCB7B4328E5F28C0026F2EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB7B4228E5F28C0026F2EB /* ViewController.swift */; };
+		4DCB7B4328E5F28C0026F2EB /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB7B4228E5F28C0026F2EB /* UserViewController.swift */; };
 		4DCB7B4628E5F28C0026F2EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCB7B4428E5F28C0026F2EB /* Main.storyboard */; };
 		4DCB7B4928E5F28C0026F2EB /* testBabySittorRS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB7B4728E5F28C0026F2EB /* testBabySittorRS.xcdatamodeld */; };
 		4DCB7B4B28E5F28D0026F2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCB7B4A28E5F28D0026F2EB /* Assets.xcassets */; };
 		4DCB7B4E28E5F28D0026F2EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCB7B4C28E5F28D0026F2EB /* LaunchScreen.storyboard */; };
+		4DCB7B5C28E5FC2C0026F2EB /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB7B5B28E5FC2C0026F2EB /* UserData.swift */; };
+		4DCB7B5E28E5FC420026F2EB /* UserNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB7B5D28E5FC420026F2EB /* UserNetwork.swift */; };
+		4DCB7B6128E5FD940026F2EB /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 4DCB7B6028E5FD940026F2EB /* SDWebImage */; };
+		4DCB7B6428E5FEFA0026F2EB /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB7B6228E5FEFA0026F2EB /* UserCollectionViewCell.swift */; };
+		4DCB7B6528E5FEFA0026F2EB /* UserCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCB7B6328E5FEFA0026F2EB /* UserCollectionViewCell.xib */; };
+		4DCB7B6A28E616260026F2EB /* Alert+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB7B6928E616260026F2EB /* Alert+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4DCB7B3B28E5F28C0026F2EB /* testBabySittorRS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testBabySittorRS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCB7B3E28E5F28C0026F2EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DCB7B4028E5F28C0026F2EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4DCB7B4228E5F28C0026F2EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DCB7B4228E5F28C0026F2EB /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		4DCB7B4528E5F28C0026F2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DCB7B4828E5F28C0026F2EB /* testBabySittorRS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testBabySittorRS.xcdatamodel; sourceTree = "<group>"; };
 		4DCB7B4A28E5F28D0026F2EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DCB7B4D28E5F28D0026F2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DCB7B4F28E5F28D0026F2EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DCB7B5B28E5FC2C0026F2EB /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		4DCB7B5D28E5FC420026F2EB /* UserNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNetwork.swift; sourceTree = "<group>"; };
+		4DCB7B6228E5FEFA0026F2EB /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DCB7B6328E5FEFA0026F2EB /* UserCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCollectionViewCell.xib; sourceTree = "<group>"; };
+		4DCB7B6928E616260026F2EB /* Alert+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCB7B6128E5FD940026F2EB /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +70,45 @@
 		4DCB7B3D28E5F28C0026F2EB /* testBabySittorRS */ = {
 			isa = PBXGroup;
 			children = (
-				4DCB7B3E28E5F28C0026F2EB /* AppDelegate.swift */,
-				4DCB7B4028E5F28C0026F2EB /* SceneDelegate.swift */,
-				4DCB7B4228E5F28C0026F2EB /* ViewController.swift */,
-				4DCB7B4428E5F28C0026F2EB /* Main.storyboard */,
-				4DCB7B4A28E5F28D0026F2EB /* Assets.xcassets */,
-				4DCB7B4C28E5F28D0026F2EB /* LaunchScreen.storyboard */,
+				4DCB7B5928E5F44C0026F2EB /* OtherFiles */,
+				4DCB7B6628E615EF0026F2EB /* StoryBoard */,
+				4DCB7B5A28E5FC1C0026F2EB /* Model */,
+				4DCB7B4228E5F28C0026F2EB /* UserViewController.swift */,
 				4DCB7B4F28E5F28D0026F2EB /* Info.plist */,
 				4DCB7B4728E5F28C0026F2EB /* testBabySittorRS.xcdatamodeld */,
 			);
 			path = testBabySittorRS;
+			sourceTree = "<group>";
+		};
+		4DCB7B5928E5F44C0026F2EB /* OtherFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4DCB7B3E28E5F28C0026F2EB /* AppDelegate.swift */,
+				4DCB7B4028E5F28C0026F2EB /* SceneDelegate.swift */,
+				4DCB7B6928E616260026F2EB /* Alert+extension.swift */,
+			);
+			path = OtherFiles;
+			sourceTree = "<group>";
+		};
+		4DCB7B5A28E5FC1C0026F2EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DCB7B5B28E5FC2C0026F2EB /* UserData.swift */,
+				4DCB7B5D28E5FC420026F2EB /* UserNetwork.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4DCB7B6628E615EF0026F2EB /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				4DCB7B6228E5FEFA0026F2EB /* UserCollectionViewCell.swift */,
+				4DCB7B6328E5FEFA0026F2EB /* UserCollectionViewCell.xib */,
+				4DCB7B4428E5F28C0026F2EB /* Main.storyboard */,
+				4DCB7B4A28E5F28D0026F2EB /* Assets.xcassets */,
+				4DCB7B4C28E5F28D0026F2EB /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +127,9 @@
 			dependencies = (
 			);
 			name = testBabySittorRS;
+			packageProductDependencies = (
+				4DCB7B6028E5FD940026F2EB /* SDWebImage */,
+			);
 			productName = testBabySittorRS;
 			productReference = 4DCB7B3B28E5F28C0026F2EB /* testBabySittorRS.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +158,9 @@
 				Base,
 			);
 			mainGroup = 4DCB7B3228E5F28C0026F2EB;
+			packageReferences = (
+				4DCB7B5F28E5FD940026F2EB /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 4DCB7B3C28E5F28C0026F2EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DCB7B4E28E5F28D0026F2EB /* LaunchScreen.storyboard in Resources */,
+				4DCB7B6528E5FEFA0026F2EB /* UserCollectionViewCell.xib in Resources */,
 				4DCB7B4B28E5F28D0026F2EB /* Assets.xcassets in Resources */,
 				4DCB7B4628E5F28C0026F2EB /* Main.storyboard in Resources */,
 			);
@@ -141,9 +189,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DCB7B4328E5F28C0026F2EB /* ViewController.swift in Sources */,
+				4DCB7B6A28E616260026F2EB /* Alert+extension.swift in Sources */,
+				4DCB7B5C28E5FC2C0026F2EB /* UserData.swift in Sources */,
+				4DCB7B4328E5F28C0026F2EB /* UserViewController.swift in Sources */,
+				4DCB7B5E28E5FC420026F2EB /* UserNetwork.swift in Sources */,
 				4DCB7B4928E5F28C0026F2EB /* testBabySittorRS.xcdatamodeld in Sources */,
 				4DCB7B3F28E5F28C0026F2EB /* AppDelegate.swift in Sources */,
+				4DCB7B6428E5FEFA0026F2EB /* UserCollectionViewCell.swift in Sources */,
 				4DCB7B4128E5F28C0026F2EB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -299,6 +351,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +359,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = rodolphe.schnetzer.testBabySittorRS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -327,6 +383,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,9 +391,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = rodolphe.schnetzer.testBabySittorRS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -362,6 +422,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DCB7B5F28E5FD940026F2EB /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DCB7B6028E5FD940026F2EB /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DCB7B5F28E5FD940026F2EB /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		4DCB7B4728E5F28C0026F2EB /* testBabySittorRS.xcdatamodeld */ = {
